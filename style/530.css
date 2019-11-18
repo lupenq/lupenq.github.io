@@ -1,0 +1,77 @@
+@media (max-width: 530px) {
+    .header {
+        min-height: 600px;
+    }
+    .header__photo {
+        width: 205px;
+        height: 205px;
+    }
+    .header__container {
+        max-width: 280px;
+    }
+    .header__title {
+        margin: 32px 0 0 0;
+        font-size: 32px;
+        line-height: 36px;
+    }
+
+    .toggle__container {
+        min-width: 280px;
+        margin: 52px auto;
+    }
+
+    .toggle__title {
+        margin: 0 0 16px 0;
+    }
+
+    .portfolio {
+        padding-bottom: 52px;
+    }
+    .portfolio__container {
+        max-width: 70%;
+        min-width: 280px;
+    }
+    .portfolio__title {
+        margin: 52px 0 0 0;
+    }
+    .portfolio__item {
+        margin: 60px auto auto auto;
+        height: auto;
+    }
+    .slider__controls {
+        text-align: center;
+        bottom: -35px;
+    }
+    .slider__img {
+        height: 150px;
+    }
+    .portfolio__item-text {
+        margin: 40px 0 0 0;
+        width: 100%;
+    }
+
+    .contacts {
+        padding: 52px 0;
+    }
+    .contacts__container {
+        min-width: 280px;
+    }
+    .contacts__title {
+        margin: 0 0 16px 0;
+    }
+    .contacts__form {
+        width: 100%;
+        min-width: 280px;
+        margin-top: 20px;
+        grid-template-areas:
+            "input-name input-name"
+            "input-email input-email"
+            "textarea textarea"
+            "file file"
+            "submit submit";
+    }
+    .slider {
+
+        min-width: 280px;
+    }
+}

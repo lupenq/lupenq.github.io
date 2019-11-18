@@ -68,8 +68,7 @@
 }
 
 .button_header {
-    width: 280px;
-    height: 52px;
+    padding: 14px 89px;
     margin-top: 20px;
 }
 
@@ -390,7 +389,7 @@ input[id$="4"]:checked ~ .slider__inner .slider__slides {
     grid-area: input-name;
     box-sizing: border-box;
     height: 36px;
-    padding: 6px 72px 10px 12px;
+    padding: 10px;
     border: 1px solid rgba(31, 64, 111, 0.2);
     border-radius: 4px;
     font-family: "PT Sans", sans-serif;
@@ -403,7 +402,7 @@ input[id$="4"]:checked ~ .slider__inner .slider__slides {
     grid-area: input-email;
     box-sizing: border-box;
     height: 36px;
-    padding: 6px 72px 10px 12px;
+    padding: 10px;
     border: 1px solid rgba(31, 64, 111, 0.2);
     border-radius: 4px;
     font-family: "PT Sans", sans-serif;
@@ -483,4 +482,8 @@ input[id$="4"]:checked ~ .slider__inner .slider__slides {
 
 .contact__file-input {
     display: none;
+}
+
+.social__link {
+    text-decoration: none;
 }
