@@ -6,7 +6,7 @@
 	</head>
 	<body>
 		<h1>ios</h1>
-		<p><b>Атвор:</b>Кирилл</p>
+		<p><b>Автор:</b>Кирилл</p>
 		<a href="https://www.apple.com/ru/iphone/?cid=oas-emeia-domains-iphone.ru">магазин</a><br>
 		<img src="https://upload.wikimedia.org/wikipedia/commons/7/70/Logo_Apple.inc.gif" alt="apple"width="300">
 
@@ -31,5 +31,22 @@
 			<li>iphone 11pro</li>
 			<li>iphone 11pro max</li>
 		</ul>
-	</body>
+
+		<script>
+			//alert("покупатйе iphone");//Это функция alert();
+			let name = prompt("как вас зовут?");
+			//alert(name);
+			let surname = prompt("какая у вас фамилия?");
+			let age = prompt("колько вам лет?");
+
+			if (age.length > 2) {alert("Ты указал неправильный возраст."); age = prompt("Сколько вам лет на самом деле");}
+			
+			if (age <= 6) {alert("Ты слишком маленький."); age = prompt("Сколько вам лет на самом деле");}
+
+			if (age >= 15) {alert("ТЫ слишком взрослый."); age = prompt("Сколько вам лет на самом деле");}
+
+			alert (name + " " + surname +", мне " + age + " лет.");
+
+		</script>
+	</body>		
 </html>

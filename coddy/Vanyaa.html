@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Мой первый сайт!=)</title>
+</head>
+<body bgcolor="sky blue">
+	<h1><b>Прив, это мой первый сайт! =)</b></h1>
+<img src="https://winx-fan.ru/wp-content/uploads/risunki-kotikov-milyh_154.jpg">
+<img src="https://go1.imgsmail.ru/imgpreview?key=11ba701410b660cd&mb=imgdb_preview_243">
+<ul><b>Животные которые мне нравятся =)</b></ul>
+<li><b>1.Собака<a href="https://ru.wikipedia.org/wiki/%D0%A1%D0%BE%D0%B1%D0%B0%D0%BA%D0%B0"> - Инфо</a></b></li>
+<li><b>2.Кот<a href="https://ru.wikipedia.org/wiki/%D0%9A%D0%BE%D1%88%D0%BA%D0%B0"> - Инфо</a></b></li>
+<li><b>3.Попугай<a href="https://ru.wikipedia.org/wiki/%D0%9F%D0%BE%D0%BF%D1%83%D0%B3%D0%B0%D0%B5%D0%BE%D0%B1%D1%80%D0%B0%D0%B7%D0%BD%D1%8B%D0%B5"> - Инфо</a></b></li>
+</ul>
+<ul><b>Игры которые мне нравятся =)</b></ul>
+<li><b>1.Roblox</b></li>
+<li><b>2.Brawl Stars</b></li>
+<li><b>3.Call Of Duty</b></li>
+</ul>
+
+	<script>
+		//alert("Приветище, Кодди!!! =)"); // Это функция alert
+		let name = prompt ("Какое у тебя имя???");
+		//alert (surname);
+		let surname = prompt ("Какая у тебя фамилия???");
+		let age = prompt ("Сколько тебе лет???");
+		
+		if (age.length > 2) {
+			alert("Ты указал неправильный возраст!!!");
+			age = prompt("Сколько тебе лет на самом деле???")
+		}
+
+		if (age <= 6) {
+			alert("Ты слишком маленький");
+			age = prompt("Сколько тебе лет на самом деле???");
+		}
+
+		if (age >= 15) {
+			alert("Ты слишком взрослый!!!");
+			age = prompt("Сколько тебе лет на самом деле???")
+		}
+
+		alert (name + " " + surname + ", возраст " + age + " лет.");
+	</script>	
+</body>
+</html>

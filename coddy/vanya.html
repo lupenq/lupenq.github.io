@@ -8,7 +8,7 @@
 		<h1>МОЙ 1 САЙТ!</h1>
 			<p><b>АВТОР:</b>Ваня</p>
 			<a href="#">Ссылка на мою страницу</a><br>
-			<img src="https://i.ytimg.com/vi/Fly74EUEV4o/hqdefault.jpg" alt="Шит цу." width="500">
+			<img src="https://i.ytimg.com/vi/Fly74EUEV4o/hqdefault.jpg" alt="Шит цу." width=571>
 
 			<h3>спсок игры:</h3>
 			<ui>
@@ -16,5 +16,30 @@
 				<li>Mainkraft.],</li>
 				<li>bed warc.</li>
 			</ui>
-		</body>
+			<script>
+				// alert(Ваня $$$$$$);//
+				let name = prompt("КАК ВАС ЗОВУТ???");
+				//alert(name);
+				
+				let surname = prompt("КАКАЯ УВАС ФАМИЛИЯ???");
+				let age = prompt("Сколько вам лет???");
+
+				if (age.length > 2) {
+					alert("Ты указал неправильй возраст.")
+					 age = prompt("Сколько вам лет на самомдели ???");
+				}
+
+				if (age<=6) {
+					alert("Ты слишком маленькй.")
+					 age = prompt("Сколько вам лет на самомдели ???");
+				}
+
+				if (age>=16) {
+					alert("Ты слишком взрослый.")
+					 age = prompt("Сколько вам лет на самомдели ???");
+				}
+
+				alert(name + " " + surname + ", мне " + age + " лет.");
+			</script>
+	</body>
 </html>

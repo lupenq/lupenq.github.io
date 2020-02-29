@@ -22,5 +22,31 @@
 			<li>шармик единорога</li>
 
 		</ul>
+		<script>
+			//alert(50/60*50);// Это функция alert();
+			let name = prompt("Как вас зовут?");
+			//alert(name);
+			let surname = prompt("Какая у ввас фамилия?")
+			let age = prompt("Сколько вам лет");
+
+			
+			if (age.length > 2){
+				alert("Ты указал неправельный возраст.");
+				age = prompt("Сколько вам лет на самом деле?");
+			}
+
+			if (age <= 6){
+				alert("Ты слишком маленький.");
+				age = prompt("Сколько вам лет на самом деле?");
+			}
+
+			if (age >= 20){
+				alert("Ты слишком взрослый.");
+				age = prompt("Сколько вам лет на самом деле?");
+			}
+
+
+			alert(name +" " +surname + ", мне " + age + " лет.");
+		</script>
 	</body>
 </html>
