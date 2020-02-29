@@ -5,8 +5,14 @@
 </head>
 <body bgcolor="sky blue">
 	<h1><b>Прив, это мой первый сайт! =)</b></h1>
-<img src="https://winx-fan.ru/wp-content/uploads/risunki-kotikov-milyh_154.jpg">
-<img src="https://go1.imgsmail.ru/imgpreview?key=11ba701410b660cd&mb=imgdb_preview_243">
+
+	<p><b>Автор:</b> Ваня</p>
+
+	<p><b>Обо мне:</b></p>
+	<p id="about"><p>
+
+<img src="https://winx-fan.ru/wp-content/uploads/risunki-kotikov-milyh_154.jpg" alt = Котяха width="400">
+<img src="https://go1.imgsmail.ru/imgpreview?key=11ba701410b660cd&mb=imgdb_preview_243" alt = Котенок width="400">
 <ul><b>Животные которые мне нравятся =)</b></ul>
 <li><b>1.Собака<a href="https://ru.wikipedia.org/wiki/%D0%A1%D0%BE%D0%B1%D0%B0%D0%BA%D0%B0"> - Инфо</a></b></li>
 <li><b>2.Кот<a href="https://ru.wikipedia.org/wiki/%D0%9A%D0%BE%D1%88%D0%BA%D0%B0"> - Инфо</a></b></li>
@@ -24,10 +30,16 @@
 		//alert (surname);
 		let surname = prompt ("Какая у тебя фамилия???");
 		let age = prompt ("Сколько тебе лет???");
+		let hobby = prompt ("Какое у тебя хобби???");
+
+		if (age === 0) {
+			alert("Ошибка");
+			age = prompt("Введи верный возраст");
+		}
 		
 		if (age.length > 2) {
 			alert("Ты указал неправильный возраст!!!");
-			age = prompt("Сколько тебе лет на самом деле???")
+			age = prompt("Сколько тебе лет на самом деле???");
 		}
 
 		if (age <= 6) {
@@ -37,10 +49,14 @@
 
 		if (age >= 15) {
 			alert("Ты слишком взрослый!!!");
-			age = prompt("Сколько тебе лет на самом деле???")
+			age = prompt("Сколько тебе лет на самом деле???");
 		}
 
-		alert (name + " " + surname + ", возраст " + age + " лет.");
+		alert (name + " " + surname + ", возраст " + age + " лет." + " Люблю " + hobby);
+
+		let about = document.getElementById("about");
+
+		about.textContent = name + " " + surname + ", возраст " + age + " лет." + " Люблю " + hobby;
 	</script>	
 </body>
 </html>

@@ -7,6 +7,8 @@
 	<body>
 		<h1>наш первый слайм</h1>
 		<p><b>Автор:</b>САМИРА</p>
+		<p><b>Обо мне:</b></p>
+		<p id="about"></p>
 		<a href="likee">cсылка на мой likee</a><br>
 		<img src="https://cdn.st100sp.com/cache_pictures/147143589/thumb300" alt="милый дизаин слайма"width="400">
 		<h3>список продуктов для cloud слайма:</h3>
@@ -29,6 +31,7 @@
 			let surname = prompt("Какая у ввас фамилия?")
 			let age = prompt("Сколько вам лет");
 
+let hobby = prompt("Какое у вас хобби?");
 			
 			if (age.length > 2){
 				alert("Ты указал неправельный возраст.");
@@ -45,8 +48,9 @@
 				age = prompt("Сколько вам лет на самом деле?");
 			}
 
-
 			alert(name +" " +surname + ", мне " + age + " лет.");
+			let about = document.getElementById("about")
+			about.textContent = name +" " +surname + ", мне " + age + " лет, " + "Я люблю " + hobby;
 		</script>
 	</body>
 </html>

@@ -1,0 +1,57 @@
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>обычный сайт.</title>
+	</head>
+	<body>
+		<h1>МОЙ 1 САЙТ!</h1>
+			<p><b>АВТОР:</b>Ваня</p>
+			
+			<p><b>обо мне</b></p>
+			<p id="about"></p>
+
+			<a href="#">Ссылка на мою страницу</a><br>
+			<img src="https://i.ytimg.com/vi/Fly74EUEV4o/hqdefault.jpg" alt="Шит цу." width=500>
+
+			<h3>спсок игры:</h3>
+			<ui>
+				<li>Roblox,</li>
+				<li>Mainkraft.],</li>
+				<li>bed warc.</li>
+			</ui>
+			<script>
+				// alert(Ваня $$$$$$);//
+				let name = prompt("КАК ВАС ЗОВУТ???");
+				//alert(name);
+				
+				let surname = prompt("КАКАЯ УВАС ФАМИЛИЯ???");
+				let age = prompt("Сколько вам лет???");
+				let hobby= prompt("какое увас хобби???");
+
+				if (age.length > 2) {
+					alert("Ты указал неправильй возраст.")
+					 age = prompt("Сколько вам лет на самомдели ???");
+				}
+
+				if (age<=6) {
+					alert("Ты слишком маленькй.")
+					age = prompt("Сколько вам лет на самомдели ???");
+				}
+
+				if (age>=16) {
+					alert("Ты слишком взрослый.")
+					 age = prompt("Сколько вам лет на самомдели ???");
+				}
+				if (age>=50) {
+					alert("Ты слишком старый.")
+					 age = prompt("Сколько вам лет на самомдели ???");
+				}
+				// alert(name + " " + surname + ", мне " + age + " лет.");
+
+				let about = document.getElementById("about");
+
+				about.textContent = name + " " + surname + ", мне " + age + " лет, " + " люблю" + hobby;
+			</script>
+	</body>
+</html>
