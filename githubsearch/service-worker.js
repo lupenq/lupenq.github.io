@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "https://lupenq.github.io/githubsearch/precache-manifest.4cc410178a64372c0932c01d2f00bbf3.js"
+  "https://lupenq.github.io/githubsearch/precache-manifest.a2dbd97bd9c20b310c6fc3972bd69375.js"
 );
 
 self.addEventListener('message', (event) => {
