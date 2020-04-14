@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "cef3873501e3093a3c94bd3bb0133e32",
+    "revision": "bd85434ee8b78a41f2ab8dea2291c58d",
     "url": "https://lupenq.github.io/githubsearch/index.html"
   },
   {
-    "revision": "01791d9a0a5b031eb88a",
+    "revision": "99a31b7132565d616d88",
     "url": "https://lupenq.github.io/githubsearch/static/css/main.ff0d9e58.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "https://lupenq.github.io/githubsearch/static/js/2.9aa367eb.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "01791d9a0a5b031eb88a",
-    "url": "https://lupenq.github.io/githubsearch/static/js/main.9c52c6aa.chunk.js"
+    "revision": "99a31b7132565d616d88",
+    "url": "https://lupenq.github.io/githubsearch/static/js/main.2a293b5b.chunk.js"
   },
   {
     "revision": "b63ab9f0b39931c917e3",
