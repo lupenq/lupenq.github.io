@@ -115,6 +115,10 @@ input[name="toggle"] {
     display: none;
 }
 
+input[name="toggle2"] {
+    display: none;
+}
+
 .toggle__item-title {
     font-family: "Montserrat", sans-serif;
     font-size: 18px;
