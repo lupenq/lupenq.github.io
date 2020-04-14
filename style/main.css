@@ -361,8 +361,12 @@ input[id$="4"]:checked ~ .slider__inner .slider__slides {
     fill: #29467a;
 }
 
-.twitter:hover path:first-child {
-    fill: #3e8bc1;
+.github:hover path{
+    fill: gray;
+}
+
+.mail:hover path {
+    fill: gray;
 }
 
 .telegram:hover circle {
@@ -486,4 +490,8 @@ input[id$="4"]:checked ~ .slider__inner .slider__slides {
 
 .social__link {
     text-decoration: none;
+}
+
+.hidden {
+    display: none
 }
