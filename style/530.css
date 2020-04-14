@@ -55,6 +55,7 @@
     }
     .contacts__container {
         min-width: 280px;
+        height: 50vh;
     }
     .contacts__title {
         margin: 0 0 16px 0;
