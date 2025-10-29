@@ -1,407 +1,384 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link
-            href="https://fonts.googleapis.com/css?family=PT+Mono&display=swap&subset=cyrillic"
-            rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=PT+Mono&display=swap&subset=cyrillic"
+      rel="stylesheet"
     />
     <link
-            href="https://fonts.googleapis.com/css?family=Montserrat:800&display=swap&subset=cyrillic"
-            rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Montserrat:800&display=swap&subset=cyrillic"
+      rel="stylesheet"
     />
     <link
-            rel="stylesheet"
-            href="https://necolas.github.io/normalize.css/8.0.1/normalize.css"
+      rel="stylesheet"
+      href="https://necolas.github.io/normalize.css/8.0.1/normalize.css"
     />
     <link
-            href="https://fonts.googleapis.com/css?family=PT+Sans&display=swap&subset=cyrillic"
-            rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=PT+Sans&display=swap&subset=cyrillic"
+      rel="stylesheet"
     />
 
     <link rel="stylesheet" href="./style/main.css" />
     <link rel="stylesheet" href="./style/800.css" />
     <link rel="stylesheet" href="./style/530.css" />
     <title>Илья Дегтярёв</title>
-</head>
-<body>
-<header class="header">
-    <div class="header__container">
-        <img class="header__photo" src="./img/lupen1.jpg" alt="" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__container">
+        <iframe
+          src="https://preview.qa.cloudpoint.com/gl-signature?attachmentIds=10b57163-8202-45e2-8305-7b844a7d3e99,92808e41-2194-4c55-9738-46331fc288d3&previewType=Smile+Design&caseId=476fcd20-6c57-4e99-af94-64124013b097&signature=6Br6_-GViW2kLJf4EaMoSWRont8KQUSdMtIkr38HCx8&date=2025-10-22T20:01:30.486030Z&ttl=5184000&useWasm=true"
+          title="Preview UI"
+          allowfullscreen="true"
+          frameborder="0"
+          width="500px"
+          height="500px"
+          allow="cross-origin-isolated"
+          sandbox="allow-scripts allow-same-origin"
+        />
         <h1 class="header__title">Ilya Degtyarev</h1>
         <h2 class="header__subtitle">
-            Web developer based in Simferopol, Crimea
+          Web developer based in Simferopol, Crimea
         </h2>
-        <a href="mailto:skinilya@gmail.com" class="header__subtitle">skinilya@gmail.com</a>
+        <a href="mailto:skinilya@gmail.com" class="header__subtitle"
+          >skinilya@gmail.com</a
+        >
         <a class="button button_header" href="#contacts">Связаться</a>
-    </div>
-</header>
+      </div>
+    </header>
 
-<section class="toggle">
-    <div class="toggle__container">
+    <section class="toggle">
+      <div class="toggle__container">
         <h2 class="toggle__title">Навыки</h2>
         <ul class="toggle__items">
-            <li class="toggle__item">
-                <input type="radio" id="1" name="toggle" checked />
-                <label for="1" class="toggle__item-title">
-                    Front-end
-                </label>
-                <div class="toggle__item-text">
-                    HTML5, CSS3, Adaptive layout<br />
-                    Javascript ES6+, React, React Hooks, Redux
-                </div>
-            </li>
-            <li class="toggle__item">
-                <input type="radio" id="2" name="toggle" />
-                <label for="2" class="toggle__item-title">
-                    Back-end
-                </label>
-                <div class="toggle__item-text">
-                    NodeJS, Express, MongoDB, MySQL
-                </div>
-            </li>
-            <li class="toggle__item">
-                <input type="radio" id="3" name="toggle" />
-                <label for="3" class="toggle__item-title">
-                    General
-                </label>
-                <div class="toggle__item-text">
-                    Git, SEO, Photoshop, Figma
-                </div>
-            </li>
+          <li class="toggle__item">
+            <input type="radio" id="1" name="toggle" checked />
+            <label for="1" class="toggle__item-title"> Front-end </label>
+            <div class="toggle__item-text">
+              HTML5, CSS3, Adaptive layout<br />
+              Javascript ES6+, React, React Hooks, Redux
+            </div>
+          </li>
+          <li class="toggle__item">
+            <input type="radio" id="2" name="toggle" />
+            <label for="2" class="toggle__item-title"> Back-end </label>
+            <div class="toggle__item-text">NodeJS, Express, MongoDB, MySQL</div>
+          </li>
+          <li class="toggle__item">
+            <input type="radio" id="3" name="toggle" />
+            <label for="3" class="toggle__item-title"> General </label>
+            <div class="toggle__item-text">Git, SEO, Photoshop, Figma</div>
+          </li>
         </ul>
         <h2 class="toggle__title">Опыт</h2>
         <ul class="toggle__items">
-            <li class="toggle__item">
-                <input type="radio" id="4" name="toggle2" checked />
-                <label for="4" class="toggle__item-title">
-                    Образование
-                </label>
-                <div class="toggle__item-text">
-                    Университет Экономики и Управления, г. Симферополь<br />
-                    Факультет экономики и управления<br />
-                    Кафедра Бизнес-информатики<br />
-                    4 курс
-                </div>
-            </li>
-            <li class="toggle__item">
-                <input type="radio" id="5" name="toggle2" />
-                <label for="5" class="toggle__item-title">
-                    Работа
-                </label>
-                <div class="toggle__item-text">
-                    АНО “Дирекция по управлению федеральной целевой программой “Социально- экономическое развитие Республики Крым и г. Севастополя до 2022 года”<br />
-                    2017-2020<br />
-                    Ведущий специалист отдела информационных систем и сводной аналитики
-                    <hr>
-                    Веб-студия "Fine"<br />
-                    2016<br />
-                    SEO-оптимизатор
-                </div>
-            </li>
+          <li class="toggle__item">
+            <input type="radio" id="4" name="toggle2" checked />
+            <label for="4" class="toggle__item-title"> Образование </label>
+            <div class="toggle__item-text">
+              Университет Экономики и Управления, г. Симферополь<br />
+              Факультет экономики и управления<br />
+              Кафедра Бизнес-информатики<br />
+              4 курс
+            </div>
+          </li>
+          <li class="toggle__item">
+            <input type="radio" id="5" name="toggle2" />
+            <label for="5" class="toggle__item-title"> Работа </label>
+            <div class="toggle__item-text">
+              АНО “Дирекция по управлению федеральной целевой программой
+              “Социально- экономическое развитие Республики Крым и г.
+              Севастополя до 2022 года”<br />
+              2017-2020<br />
+              Ведущий специалист отдела информационных систем и сводной
+              аналитики
+              <hr />
+              Веб-студия "Fine"<br />
+              2016<br />
+              SEO-оптимизатор
+            </div>
+          </li>
         </ul>
-    </div>
-</section>
+      </div>
+    </section>
 
-<section class="portfolio">
-    <div class="portfolio__container">
-        <h1 class="portfolio__title">
-            Мои работы
-        </h1>
+    <section class="portfolio">
+      <div class="portfolio__container">
+        <h1 class="portfolio__title">Мои работы</h1>
         <article class="portfolio__item">
-            <h3 class="portfolio__item-title">
-                Статистика COVID-19
-            </h3>
-            <a href="https://covid-stats.site/" class="portfolio__item-link">
-                COVID-19 Stats
-            </a>
-            <a href="https://github.com/lupenq/Covid-stats" class="portfolio__item-link">
-                <small>Github repository</small>
-            </a>
+          <h3 class="portfolio__item-title">Статистика COVID-19</h3>
+          <a href="https://covid-stats.site/" class="portfolio__item-link">
+            COVID-19 Stats
+          </a>
+          <a
+            href="https://github.com/lupenq/Covid-stats"
+            class="portfolio__item-link"
+          >
+            <small>Github repository</small>
+          </a>
 
-            <div class="slider">
-                <input
-                        class="slider__input"
-                        type="radio"
-                        id="btn4-1"
-                        name="4"
-                        checked
-                />
-                <input
-                        class="slider__input"
-                        type="radio"
-                        id="btn4-2"
-                        name="4"
-                />
-                <input
-                        class="slider__input"
-                        type="radio"
-                        id="btn4-3"
-                        name="4"
-                />
-                <input
-                        class="slider__input"
-                        type="radio"
-                        id="btn4-4"
-                        name="4"
-                />
-                <div class="slider__controls">
-                    <label class="slider__label" for="btn4-1"></label>
-                    <label class="slider__label" for="btn4-2"></label>
-                </div>
-                <div class="slider__inner">
-                    <div class="slider__slides">
-                        <img class="slider__img" src="./img/covid1.png" />
-                        <img class="slider__img" src="./img/covid2.png" />
-                    </div>
-                </div>
+          <div class="slider">
+            <input
+              class="slider__input"
+              type="radio"
+              id="btn4-1"
+              name="4"
+              checked
+            />
+            <input class="slider__input" type="radio" id="btn4-2" name="4" />
+            <input class="slider__input" type="radio" id="btn4-3" name="4" />
+            <input class="slider__input" type="radio" id="btn4-4" name="4" />
+            <div class="slider__controls">
+              <label class="slider__label" for="btn4-1"></label>
+              <label class="slider__label" for="btn4-2"></label>
             </div>
-            <p class="portfolio__item-text">
-                Дашборд статистики COVID-19 по миру и странам.<br />
-                React + Chart.js + Material-UI
-            </p>
+            <div class="slider__inner">
+              <div class="slider__slides">
+                <img class="slider__img" src="./img/covid1.png" />
+                <img class="slider__img" src="./img/covid2.png" />
+              </div>
+            </div>
+          </div>
+          <p class="portfolio__item-text">
+            Дашборд статистики COVID-19 по миру и странам.<br />
+            React + Chart.js + Material-UI
+          </p>
         </article>
         <article class="portfolio__item">
-            <h3 class="portfolio__item-title">
-                Путешествия по России
-            </h3>
-            <a href="/travel" class="portfolio__item-link">
-                Travel in Russia
-            </a>
-            <a href="https://github.com/lupenq/praktikum_sprint4" class="portfolio__item-link">
-                <small>Github repository</small>
-            </a>
+          <h3 class="portfolio__item-title">Путешествия по России</h3>
+          <a href="/travel" class="portfolio__item-link"> Travel in Russia </a>
+          <a
+            href="https://github.com/lupenq/praktikum_sprint4"
+            class="portfolio__item-link"
+          >
+            <small>Github repository</small>
+          </a>
 
-            <div class="slider">
-                <input
-                        class="slider__input"
-                        type="radio"
-                        id="btn1-1"
-                        name="1"
-                        checked
-                />
-                <input
-                        class="slider__input"
-                        type="radio"
-                        id="btn1-2"
-                        name="1"
-                />
-                <input
-                        class="slider__input"
-                        type="radio"
-                        id="btn1-3"
-                        name="1"
-                />
-                <input
-                        class="slider__input"
-                        type="radio"
-                        id="btn1-4"
-                        name="1"
-                />
-                <div class="slider__controls">
-                    <label class="slider__label" for="btn1-1"></label>
-                    <label class="slider__label" for="btn1-2"></label>
-                    <label class="slider__label" for="btn1-3"></label>
-                    <label class="slider__label" for="btn1-4"></label>
-                </div>
-                <div class="slider__inner">
-                    <div class="slider__slides">
-                        <img class="slider__img" src="./img/travel1.png" />
-                        <img class="slider__img" src="./img/travel2.png" />
-                        <img class="slider__img" src="./img/travel3.png" />
-                        <img class="slider__img" src="./img/travel4.png" />
-                    </div>
-                </div>
+          <div class="slider">
+            <input
+              class="slider__input"
+              type="radio"
+              id="btn1-1"
+              name="1"
+              checked
+            />
+            <input class="slider__input" type="radio" id="btn1-2" name="1" />
+            <input class="slider__input" type="radio" id="btn1-3" name="1" />
+            <input class="slider__input" type="radio" id="btn1-4" name="1" />
+            <div class="slider__controls">
+              <label class="slider__label" for="btn1-1"></label>
+              <label class="slider__label" for="btn1-2"></label>
+              <label class="slider__label" for="btn1-3"></label>
+              <label class="slider__label" for="btn1-4"></label>
             </div>
-            <p class="portfolio__item-text">
-                Адаптивная верстка макета Figma про путешествия по России
-            </p>
+            <div class="slider__inner">
+              <div class="slider__slides">
+                <img class="slider__img" src="./img/travel1.png" />
+                <img class="slider__img" src="./img/travel2.png" />
+                <img class="slider__img" src="./img/travel3.png" />
+                <img class="slider__img" src="./img/travel4.png" />
+              </div>
+            </div>
+          </div>
+          <p class="portfolio__item-text">
+            Адаптивная верстка макета Figma про путешествия по России
+          </p>
         </article>
         <article class="portfolio__item">
-            <h3 class="portfolio__item-title">
-                Магазин курсов
-            </h3>
-            <a href="https://sheltered-taiga-50016.herokuapp.com/" class="portfolio__item-link">
-                Courses shop
-            </a>
-            <a href="https://github.com/lupenq/NodeJS-Express" class="portfolio__item-link">
-                <small>Github repository</small>
-            </a>
-            <div class="slider">
-                <input
-                        class="slider__input"
-                        type="radio"
-                        id="btn2-1"
-                        name="2"
-                        checked
-                />
-                <input
-                        class="slider__input"
-                        type="radio"
-                        id="btn2-2"
-                        name="2"
-                />
-                <input
-                        class="slider__input"
-                        type="radio"
-                        id="btn2-3"
-                        name="2"
-                />
-                <input
-                        class="slider__input"
-                        type="radio"
-                        id="btn2-4"
-                        name="2"
-                />
-                <div class="slider__controls">
-                    <label class="slider__label" for="btn2-1"></label>
-                    <label class="slider__label" for="btn2-2"></label>
-                    <label class="slider__label" for="btn2-3"></label>
-                    <label class="slider__label" for="btn2-4"></label>
-                </div>
-                <div class="slider__inner">
-                    <div class="slider__slides">
-                        <img class="slider__img" src="./img/courses1.png" />
-                        <img class="slider__img" src="./img/courses2.png" />
-                        <img class="slider__img" src="./img/courses3.png" />
-                        <img class="slider__img" src="./img/courses4.png" />
-                    </div>
-                </div>
+          <h3 class="portfolio__item-title">Магазин курсов</h3>
+          <a
+            href="https://sheltered-taiga-50016.herokuapp.com/"
+            class="portfolio__item-link"
+          >
+            Courses shop
+          </a>
+          <a
+            href="https://github.com/lupenq/NodeJS-Express"
+            class="portfolio__item-link"
+          >
+            <small>Github repository</small>
+          </a>
+          <div class="slider">
+            <input
+              class="slider__input"
+              type="radio"
+              id="btn2-1"
+              name="2"
+              checked
+            />
+            <input class="slider__input" type="radio" id="btn2-2" name="2" />
+            <input class="slider__input" type="radio" id="btn2-3" name="2" />
+            <input class="slider__input" type="radio" id="btn2-4" name="2" />
+            <div class="slider__controls">
+              <label class="slider__label" for="btn2-1"></label>
+              <label class="slider__label" for="btn2-2"></label>
+              <label class="slider__label" for="btn2-3"></label>
+              <label class="slider__label" for="btn2-4"></label>
             </div>
-            <p class="portfolio__item-text">
-                Каталог курсов с возможностью покупки.<br />
-                NodeJS + Express + MongoDB
-            </p>
+            <div class="slider__inner">
+              <div class="slider__slides">
+                <img class="slider__img" src="./img/courses1.png" />
+                <img class="slider__img" src="./img/courses2.png" />
+                <img class="slider__img" src="./img/courses3.png" />
+                <img class="slider__img" src="./img/courses4.png" />
+              </div>
+            </div>
+          </div>
+          <p class="portfolio__item-text">
+            Каталог курсов с возможностью покупки.<br />
+            NodeJS + Express + MongoDB
+          </p>
         </article>
         <article class="portfolio__item">
-            <h3 class="portfolio__item-title">
-                Поиск пользователей Github
-            </h3>
-            <a href="https://lupenq.github.io/githubsearch/" class="portfolio__item-link">
-                Github Search
-            </a>
-            <a href="https://github.com/lupenq/Github-Search" class="portfolio__item-link">
-                <small>Github repository</small>
-            </a>
-            <div class="slider">
-                <input
-                        class="slider__input"
-                        type="radio"
-                        id="btn3-1"
-                        name="3"
-                        checked
-                />
-                <input
-                        class="slider__input"
-                        type="radio"
-                        id="btn3-2"
-                        name="3"
-                />
-                <input
-                        class="slider__input"
-                        type="radio"
-                        id="btn3-3"
-                        name="3"
-                />
-                <input
-                        class="slider__input"
-                        type="radio"
-                        id="btn3-4"
-                        name="3"
-                />
-                <div class="slider__controls">
-                    <label class="slider__label" for="btn3-1"></label>
-                    <label class="slider__label" for="btn3-2"></label>
-                    <label class="slider__label" for="btn3-3"></label>
-                    <label class="slider__label" for="btn3-4"></label>
-                </div>
-                <div class="slider__inner">
-                    <div class="slider__slides">
-                        <img class="slider__img" src="./img/gitseacrh1.png" />
-                        <img class="slider__img" src="./img/gitseacrh2.png" />
-                        <img class="slider__img" src="./img/gitseacrh3.png" />
-                        <img class="slider__img" src="./img/gitseacrh4.png" />
-                    </div>
-                </div>
+          <h3 class="portfolio__item-title">Поиск пользователей Github</h3>
+          <a
+            href="https://lupenq.github.io/githubsearch/"
+            class="portfolio__item-link"
+          >
+            Github Search
+          </a>
+          <a
+            href="https://github.com/lupenq/Github-Search"
+            class="portfolio__item-link"
+          >
+            <small>Github repository</small>
+          </a>
+          <div class="slider">
+            <input
+              class="slider__input"
+              type="radio"
+              id="btn3-1"
+              name="3"
+              checked
+            />
+            <input class="slider__input" type="radio" id="btn3-2" name="3" />
+            <input class="slider__input" type="radio" id="btn3-3" name="3" />
+            <input class="slider__input" type="radio" id="btn3-4" name="3" />
+            <div class="slider__controls">
+              <label class="slider__label" for="btn3-1"></label>
+              <label class="slider__label" for="btn3-2"></label>
+              <label class="slider__label" for="btn3-3"></label>
+              <label class="slider__label" for="btn3-4"></label>
             </div>
-            <p class="portfolio__item-text">
-                Сервис по поиску пользователей на Github с возможностью просмотра информации о них и репозиториев. <br />
-                GithubAPI + React Hooks + Bootstrap
-            </p>
+            <div class="slider__inner">
+              <div class="slider__slides">
+                <img class="slider__img" src="./img/gitseacrh1.png" />
+                <img class="slider__img" src="./img/gitseacrh2.png" />
+                <img class="slider__img" src="./img/gitseacrh3.png" />
+                <img class="slider__img" src="./img/gitseacrh4.png" />
+              </div>
+            </div>
+          </div>
+          <p class="portfolio__item-text">
+            Сервис по поиску пользователей на Github с возможностью просмотра
+            информации о них и репозиториев. <br />
+            GithubAPI + React Hooks + Bootstrap
+          </p>
         </article>
-    </div>
-</section>
+      </div>
+    </section>
 
-<section class="contacts" id="contacts">
-    <div class="contacts__container">
+    <section class="contacts" id="contacts">
+      <div class="contacts__container">
         <h2 class="contacts__title">Контактная информация</h2>
         <div class="social-icons">
-            <a href="https://github.com/lupenq" target="_blank" class="social__link"
-            ><svg class="social-icon github" enable-background="new 0 0 24 24" height="512" viewBox="0 0 24 24" width="512" xmlns="http://www.w3.org/2000/svg"><path d="m12 .5c-6.63 0-12 5.28-12 11.792 0 5.211 3.438 9.63 8.205 11.188.6.111.82-.254.82-.567 0-.28-.01-1.022-.015-2.005-3.338.711-4.042-1.582-4.042-1.582-.546-1.361-1.335-1.725-1.335-1.725-1.087-.731.084-.716.084-.716 1.205.082 1.838 1.215 1.838 1.215 1.07 1.803 2.809 1.282 3.495.981.108-.763.417-1.282.76-1.577-2.665-.295-5.466-1.309-5.466-5.827 0-1.287.465-2.339 1.235-3.164-.135-.298-.54-1.497.105-3.121 0 0 1.005-.316 3.3 1.209.96-.262 1.98-.392 3-.398 1.02.006 2.04.136 3 .398 2.28-1.525 3.285-1.209 3.285-1.209.645 1.624.24 2.823.12 3.121.765.825 1.23 1.877 1.23 3.164 0 4.53-2.805 5.527-5.475 5.817.42.354.81 1.077.81 2.182 0 1.578-.015 2.846-.015 3.229 0 .309.21.678.825.56 4.801-1.548 8.236-5.97 8.236-11.173 0-6.512-5.373-11.792-12-11.792z" fill="#212121"/></svg>
-            </a>
-            <a href="mailto:skinilya@gmail.com" class="social__link">
-                <svg class="social-icon mail" height="448pt" viewBox="0 0 448 448" width="448pt" xmlns="http://www.w3.org/2000/svg"><path d="m314.375 144h-180.75l90.375 77.464844zm0 0"/><path d="m224 240c-1.910156 0-3.757812-.683594-5.207031-1.929688l-98.792969-84.679687v150.609375h208v-150.609375l-98.792969 84.679687c-1.449219 1.246094-3.296875 1.929688-5.207031 1.929688zm0 0"/><path d="m224 0c-123.710938 0-224 100.289062-224 224s100.289062 224 224 224 224-100.289062 224-224c-.140625-123.652344-100.347656-223.859375-224-224zm120 312c0 4.417969-3.582031 8-8 8h-224c-4.417969 0-8-3.582031-8-8v-176c0-4.417969 3.582031-8 8-8h224c4.417969 0 8 3.582031 8 8zm0 0"/></svg>
-            </a>
-            <a href="https://t.me/justlupen" target="_blank" class="social__link">
-                <svg
-                        class="social-icon telegram"
-                        enable-background="new 0 0 24 24"
-                        viewBox="0 0 24 24"
-                        xmlns="http://www.w3.org/2000/svg"
-                >
-                    <circle cx="12" cy="12" r="12" fill="#039be5" />
-                    <path
-                            d="m5.491 11.74 11.57-4.461c.537-.194 1.006.131.832.943l.001-.001-1.97 9.281c-.146.658-.537.818-1.084.508l-3-2.211-1.447 1.394c-.16.16-.295.295-.605.295l.213-3.053 5.56-5.023c.242-.213-.054-.333-.373-.121l-6.871 4.326-2.962-.924c-.643-.204-.657-.643.136-.953z"
-                            fill="#fff"
-                    />
-                </svg>
-            </a>
+          <a
+            href="https://github.com/lupenq"
+            target="_blank"
+            class="social__link"
+            ><svg
+              class="social-icon github"
+              enable-background="new 0 0 24 24"
+              height="512"
+              viewBox="0 0 24 24"
+              width="512"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="m12 .5c-6.63 0-12 5.28-12 11.792 0 5.211 3.438 9.63 8.205 11.188.6.111.82-.254.82-.567 0-.28-.01-1.022-.015-2.005-3.338.711-4.042-1.582-4.042-1.582-.546-1.361-1.335-1.725-1.335-1.725-1.087-.731.084-.716.084-.716 1.205.082 1.838 1.215 1.838 1.215 1.07 1.803 2.809 1.282 3.495.981.108-.763.417-1.282.76-1.577-2.665-.295-5.466-1.309-5.466-5.827 0-1.287.465-2.339 1.235-3.164-.135-.298-.54-1.497.105-3.121 0 0 1.005-.316 3.3 1.209.96-.262 1.98-.392 3-.398 1.02.006 2.04.136 3 .398 2.28-1.525 3.285-1.209 3.285-1.209.645 1.624.24 2.823.12 3.121.765.825 1.23 1.877 1.23 3.164 0 4.53-2.805 5.527-5.475 5.817.42.354.81 1.077.81 2.182 0 1.578-.015 2.846-.015 3.229 0 .309.21.678.825.56 4.801-1.548 8.236-5.97 8.236-11.173 0-6.512-5.373-11.792-12-11.792z"
+                fill="#212121"
+              />
+            </svg>
+          </a>
+          <a href="mailto:skinilya@gmail.com" class="social__link">
+            <svg
+              class="social-icon mail"
+              height="448pt"
+              viewBox="0 0 448 448"
+              width="448pt"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path d="m314.375 144h-180.75l90.375 77.464844zm0 0" />
+              <path
+                d="m224 240c-1.910156 0-3.757812-.683594-5.207031-1.929688l-98.792969-84.679687v150.609375h208v-150.609375l-98.792969 84.679687c-1.449219 1.246094-3.296875 1.929688-5.207031 1.929688zm0 0"
+              />
+              <path
+                d="m224 0c-123.710938 0-224 100.289062-224 224s100.289062 224 224 224 224-100.289062 224-224c-.140625-123.652344-100.347656-223.859375-224-224zm120 312c0 4.417969-3.582031 8-8 8h-224c-4.417969 0-8-3.582031-8-8v-176c0-4.417969 3.582031-8 8-8h224c4.417969 0 8 3.582031 8 8zm0 0"
+              />
+            </svg>
+          </a>
+          <a href="https://t.me/justlupen" target="_blank" class="social__link">
+            <svg
+              class="social-icon telegram"
+              enable-background="new 0 0 24 24"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <circle cx="12" cy="12" r="12" fill="#039be5" />
+              <path
+                d="m5.491 11.74 11.57-4.461c.537-.194 1.006.131.832.943l.001-.001-1.97 9.281c-.146.658-.537.818-1.084.508l-3-2.211-1.447 1.394c-.16.16-.295.295-.605.295l.213-3.053 5.56-5.023c.242-.213-.054-.333-.373-.121l-6.871 4.326-2.962-.924c-.643-.204-.657-.643.136-.953z"
+                fill="#fff"
+              />
+            </svg>
+          </a>
         </div>
         <p class="contacts__text">
-            Я открыт для новых проектов.<br />Вы можете связаться со мной любым удобным для вас способом.
+          Я открыт для новых проектов.<br />Вы можете связаться со мной любым
+          удобным для вас способом.
         </p>
 
         <form action="#" class="contacts__form hidden">
-            <input
-                    type="text"
-                    name="name"
-                    id="name"
-                    class="contacts__input-text"
-                    placeholder="Как вас зовут?"
-                    required
-            />
-            <input
-                    type="email"
-                    name="email"
-                    id="email"
-                    class="contacts__input-email"
-                    placeholder="Почтовый ящик"
-                    required
-            />
-            <textarea
-                    type="textarea"
-                    name="message"
-                    id="message"
-                    class="contacts__input-text textarea"
-                    placeholder="Сообщение"
-                    required
-            ></textarea>
-            <label class="contact__file" for="file"></label>
-            <input
-                    type="file"
-                    id="file"
-                    name="file"
-                    class="contact__file-input"
-            />
-            <input
-                    class="button button_contact"
-                    type="submit"
-                    value="Отправить"
-            />
+          <input
+            type="text"
+            name="name"
+            id="name"
+            class="contacts__input-text"
+            placeholder="Как вас зовут?"
+            required
+          />
+          <input
+            type="email"
+            name="email"
+            id="email"
+            class="contacts__input-email"
+            placeholder="Почтовый ящик"
+            required
+          />
+          <textarea
+            type="textarea"
+            name="message"
+            id="message"
+            class="contacts__input-text textarea"
+            placeholder="Сообщение"
+            required
+          ></textarea>
+          <label class="contact__file" for="file"></label>
+          <input
+            type="file"
+            id="file"
+            name="file"
+            class="contact__file-input"
+          />
+          <input
+            class="button button_contact"
+            type="submit"
+            value="Отправить"
+          />
         </form>
-    </div>
-</section>
-</body>
+      </div>
+    </section>
+  </body>
 </html>
